@@ -1,0 +1,25 @@
+{
+    "name": "kavac/commercialization",
+    "description": "",
+    "authors": [
+        {
+            "name": "Tsu. Miguel Narvaez",
+            "email": "mnarvaez@cenditel.gob.ve | miguelnarvaez31@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Commercialization\\Providers\\CommercializationServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Commercialization\\": ""
+        }
+    }
+}

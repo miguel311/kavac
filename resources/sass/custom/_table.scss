@@ -1,0 +1,40 @@
+table.table.table-big {
+	td.wrapping {
+		//max-width: 200px;
+	}
+	td, th {
+		white-space: pre-wrap !important;
+		word-break: break-word !important;
+	}
+}
+
+table {
+	th, td {
+		&.border-right {
+			border-right: solid 1px #dee2e6;
+		}
+	}
+
+	th {
+		text-align: center;
+		font-weight: bold;
+	}
+}
+
+/**
+ * Estilos para el componente Vue-tables-2
+ */
+.VueTables__child-row-toggler {
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.VueTables__limit-field {
+	.form-control {
+		padding: 0.375rem 0.75rem;
+	}
+}

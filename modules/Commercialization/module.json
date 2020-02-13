@@ -1,0 +1,16 @@
+{
+    "name": "Commercialization",
+    "alias": "commercialization",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Commercialization\\Providers\\CommercializationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,17 @@
+site_name: Documentación de Usuario.
+nav:
+    - Inicio: index.md
+    - Información General: information.md
+    - Instalación: installation.md 
+    - Administración del sistema: 
+                    - 'Panel de Control': 'control_panel.md'
+                    - 'Configuración': 'settings.md'
+
+markdown_extensions:
+    - toc:
+        permalink: "¶"
+        separator: "_"            
+             
+            
+            
+

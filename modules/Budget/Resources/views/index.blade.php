@@ -1,0 +1,2 @@
+{{-- @extends('budget::layouts.master') --}}
+
